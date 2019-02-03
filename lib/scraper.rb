@@ -22,10 +22,10 @@ file={}
 #data=doc.css(".social-icon-container a").attribute("href").value
 
 
-doc.collect do|tag|
-tag..css(".social-icon-container a").attribute("href").value
-binding.pry
-end
+  doc.collect do|tag|
+    tag..css(".social-icon-container a").attribute("href").value
+    binding.pry
+  end
 end
 #file[:linkedin]="t" #unless t== nil
 #  file [:github]="t" #unless t== nil
