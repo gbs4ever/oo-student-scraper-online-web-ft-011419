@@ -23,14 +23,14 @@ binding.pry
 
 
 
-.attribute("href").value
-data.collect do|tag|
-tag
+#.attribute("href").value
+#data.collect do|tag|
+#tag
 
 
-file[:linkedin]="t" #unless t== nil
-  file [:github]="t" #unless t== nil
-file  [:twitter]="t" # unless t== nil
+#file[:linkedin]="t" #unless t== nil
+#  file [:github]="t" #unless t== nil
+#file  [:twitter]="t" # unless t== nil
 #:profile_quote=>"\"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.\" - Rumi",
 #     :bio=> "I'm a school"
 
