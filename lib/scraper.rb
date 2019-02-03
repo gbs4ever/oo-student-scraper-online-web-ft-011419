@@ -23,7 +23,7 @@ file={}
 
 
   doc.collect do|tag|
-    tag..css(".social-icon-container a").attribute("href").value
+    tag.css(".social-icon-container a").attribute("href").value
     binding.pry
   end
 end
