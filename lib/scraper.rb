@@ -26,6 +26,7 @@ doc.collect do|tag|
 tag..css(".social-icon-container a").attribute("href").value
 binding.pry
 end
+end
 #file[:linkedin]="t" #unless t== nil
 #  file [:github]="t" #unless t== nil
 #file  [:twitter]="t" # unless t== nil
