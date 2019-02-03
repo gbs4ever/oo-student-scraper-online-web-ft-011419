@@ -18,7 +18,12 @@ data
   def self.scrape_profile_page(profile_url)
 doc = Nokogiri::HTML(open(profile_url))
 file={}
-data=doc.css(".social-icon-container a").attribute("href").value
+data=doc.css(".social-icon-container a")
+binding.pry
+
+
+
+.attribute("href").value
 data.collect do|tag|
 tag
 
