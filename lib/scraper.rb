@@ -21,7 +21,7 @@ file={}
 data=doc.css(".social-icon-container a")
 binding.pry
 
-
+end
 
 #.attribute("href").value
 #data.collect do|tag|
@@ -35,7 +35,7 @@ binding.pry
 #     :bio=> "I'm a school"
 
 
-end
-end
+#end
+#end
 
 end
