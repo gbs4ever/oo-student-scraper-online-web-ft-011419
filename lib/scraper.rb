@@ -31,7 +31,8 @@ data
                     else
                         file[:blog]="tag"
                 end
-
+#quete doc.css(".profile-quote").text
+#bio   doc.css(".description-holder").text
       end
       file
       end
