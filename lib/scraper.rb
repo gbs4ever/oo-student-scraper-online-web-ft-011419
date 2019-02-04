@@ -24,9 +24,9 @@ data
         binding.pry
                 if links.include?("linkedin")
                   file[:linkedin]="tag"
-                  elsif links.include?(tag)
+                elsif links.include?("github")
                     file[:github]="tag"
-                  elsif links.include?(tag)
+                  elsif links.include?("twitter")
                       file[:twitter]="tag"
                     else
                         file[:blog]="tag"
