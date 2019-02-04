@@ -31,18 +31,11 @@ data
                         file[:blog]="tag"
                 end
 
-
-file
-  end
       end
-
-#  file [:github]="t" #unless t== nil
-#file  [:twitter]="t" # unless t== nil
+      file
+      end
 #:profile_quote=>"\"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.\" - Rumi",
 #     :bio=> "I'm a school"
 
-
-#end
-#end
 
 end
