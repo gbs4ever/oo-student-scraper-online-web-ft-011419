@@ -22,20 +22,20 @@ data
       links=doc.css(".social-icon-container a").map{|data|data.attribute("href").value}
       links.each do|tag|
                 if links.include?(tag)
-                  file[:linkedin]="tag" 
+                  file[:linkedin]="tag"
                   elsif links.include?(tag)
-                    file[:github]="tag" 
+                    file[:github]="tag"
                   elsif links.include?(tag)
-                      file[:twitter]="tag" 
-                    else 
-                        file[:blog]="tag" 
+                      file[:twitter]="tag"
+                    else
+                        file[:blog]="tag"
                 end
 
 
-    
+
   end
       end
- 
+
 #  file [:github]="t" #unless t== nil
 #file  [:twitter]="t" # unless t== nil
 #:profile_quote=>"\"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.\" - Rumi",
