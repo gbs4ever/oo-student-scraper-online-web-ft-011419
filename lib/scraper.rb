@@ -23,14 +23,15 @@ data
       links.each do|tag|
 #binding.pry
                 if links.include?("linkedin")
-                  file[:linkedin]=tag
+                  file[:linkedin]= tag
                 elsif links.include?("github")
-                    file[:github]=tag
+                    file[:github]= tag
                   elsif links.include?("twitter")
-                      file[:twitter]=tag
+                      file[:twitter]= tag
                     else
-                        file[:blog]=tag
+                        file[:blog]= tag
                 end
+              end
    file[:profile_quote] =doc.css(".profile-quote").text #quote
     file[:bio] =doc.css(".description-holder").text      #bio
       end
