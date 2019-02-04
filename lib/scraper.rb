@@ -32,8 +32,8 @@ data
                         file[:blog]= tag
                 end
           end
-          file[:profile_quote] =doc.css(".profile-quote").text #quote
-          file[:bio] =doc.css(".description-holder").text      #bio
+          file[:profile_quote] =doc.css(".profile-quote").text if doc.css(".profile-quote") #quote
+          file[:bio] =doc.css(".description-holder").text  if  doc.css(".description-holder")   #bio
 
     # binding.pry
       file
