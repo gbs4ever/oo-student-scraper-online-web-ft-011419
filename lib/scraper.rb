@@ -22,7 +22,7 @@ data
       links=doc.css(".social-icon-container a").map{|data|data.attribute("href").value}
       links.each do|tag|
 
-binding.pry
+#binding.pry
  # links are all the links
 #tag is each social media check for validty
                 if tag.include?("linkedin")
@@ -33,12 +33,12 @@ binding.pry
                       file[:twitter]= tag
                     else
                         file[:blog]= tag
-                end
+                      end
           end
           file[:profile_quote] =doc.css(".profile-quote").text if doc.css(".profile-quote") #quote
           file[:bio] =doc.css(".description-holder").text.gsub(/\s+/, " ") if  doc.css(".description-holder")   #bio
 
-    # binding.pry
+     binding.pry
       file
       end
 
