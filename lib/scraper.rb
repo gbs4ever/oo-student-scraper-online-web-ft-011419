@@ -31,13 +31,10 @@ binding.pry
                     else
                         file[:blog]="tag"
                 end
-#quete doc.css(".profile-quote").text
-#bio   doc.css(".description-holder").text
+   file[:profile_quote] =doc.css(".profile-quote").text #quote   
+    file[:bio] =doc.css(".description-holder").text      #bio  
       end
       file
       end
-#:profile_quote=>"\"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.\" - Rumi",
-#     :bio=> "I'm a school"
-
 
 end
