@@ -31,8 +31,8 @@ binding.pry
                     else
                         file[:blog]="tag"
                 end
-   file[:profile_quote] =doc.css(".profile-quote").text #quote   
-    file[:bio] =doc.css(".description-holder").text      #bio  
+   file[:profile_quote] =doc.css(".profile-quote").text #quote
+    file[:bio] =doc.css(".description-holder").text      #bio
       end
       file
       end
