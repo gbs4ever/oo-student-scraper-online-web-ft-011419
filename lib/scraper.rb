@@ -21,7 +21,7 @@ data
       #this is the links css   (".social-icon-container a") .attribute("href").value
       links=doc.css(".social-icon-container a").map{|data|data.attribute("href").value}
       links.each do|tag|
-        
+
 binding.pry
  # links are all the links
 #tag is each social media check for validty
