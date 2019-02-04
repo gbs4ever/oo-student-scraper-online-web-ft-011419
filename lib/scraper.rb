@@ -36,7 +36,7 @@ data
                       end
 
           end
-          binding.pry
+        #  binding.pry
           file[:profile_quote] =doc.css(".profile-quote").text if doc.css(".profile-quote") #quote
           file[:bio] =doc.css(".description-holder p").text if  doc.css(".description-holder")   #bio
 
