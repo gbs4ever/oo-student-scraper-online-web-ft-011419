@@ -34,7 +34,7 @@ data
    file[:profile_quote] =doc.css(".profile-quote").text #quote
     file[:bio] =doc.css(".description-holder").text      #bio
       end
-    #  binding.pry
+     binding.pry
       file
       end
 
