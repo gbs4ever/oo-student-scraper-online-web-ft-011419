@@ -34,7 +34,7 @@ data
                     else
                         file[:blog]= tag
                       end
-                      
+
           end
           binding.pry
           file[:profile_quote] =doc.css(".profile-quote").text if doc.css(".profile-quote") #quote
