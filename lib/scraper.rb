@@ -23,8 +23,8 @@ data
       links.each do|tag|
 
           binding.pry
-  end
-end
+        end
+      end
 #file[:linkedin]="t" #unless t== nil
 #  file [:github]="t" #unless t== nil
 #file  [:twitter]="t" # unless t== nil
