@@ -21,6 +21,7 @@ data
       #this is the links css   (".social-icon-container a") .attribute("href").value
       links=doc.css(".social-icon-container a").map{|data|data.attribute("href").value}
       links.each do|tag|
+        binding.pry
                 if links.include?(tag)
                   file[:linkedin]="tag"
                   elsif links.include?(tag)
