@@ -19,7 +19,7 @@ data
 doc = Nokogiri::HTML(open(profile_url))
 file={}
 #this is the links
-links=doc.css(".social-icon-container a").map{|data|data}#.attribute("href").value}
+links=doc.css(".social-icon-container a").map{|data|data}.attribute("href").value}
 
 
 links.each do|tag|
