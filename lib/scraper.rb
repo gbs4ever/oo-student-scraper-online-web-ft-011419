@@ -22,7 +22,7 @@ data
       links=doc.css(".social-icon-container a").map{|data|data.attribute("href").value}
       links.each do|tag|
         binding.pry
-                if links.include?(tag)
+                if links.include?("linkedin")
                   file[:linkedin]="tag"
                   elsif links.include?(tag)
                     file[:github]="tag"
